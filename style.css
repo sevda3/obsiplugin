@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+.about-content {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url('img/landing.jpeg'); /* Adjust image URL */
+    background-size: cover;
+    background-position: center;
+}
+
+.about-content h2,
+.about-content p {
+    z-index: 2; /* Ensure text is above background */
+}
+
+.explore-btn {
+    z-index: 1;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    position: sticky;
+    top: 0;
+    z-index:1;
+}
+h2{
+    font-family: "Cabin", sans-serif;
+    font-size:3vw;
+}
+section {
+    font-family: "Raleway", sans-serif;
+    font-size:1.3vw;
+    padding: 20px;
+}
+
+#about, #plugins, #contact {
+    text-align: center;
+}
+
+.plugin-container {
+    display: flex;
+    justify-content: space-around; /* Adjust alignment as needed */
+}
+
+.plugin {
+    flex: 0 1 30%; /* Adjust width of plugins */
+    text-align: center;
+}
+
+.plugin img {
+    width: 100%; /* Adjust size as needed */
+    height:auto;
+    max-height: 200px;
+    object-fit:cover;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: auto;
+}

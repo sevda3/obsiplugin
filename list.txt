@@ -1,0 +1,25 @@
+Excalidraw
+Excalidraw is a very powerful yet simple to use sketching tool. It allows you to integrate quick sketches, user interface deigns, even simple charts, etc. into your notes in Obsidian.
+
+Templater 
+Templater is a template plugin for Obsidian.md. It defines a templating language that lets you insert variables and functions results into your notes. It will also let you execute JavaScript code manipulating those variables and functions.
+
+Obsidian Plugin Update Tracker
+Know when installed plugins have updates
+
+Obsidian Linter
+This Obsidian plugin formats and styles your notes with a focus on configurability and extensibility. Rules can be toggled and configured in the settings.
+
+Obsidian Commander
+Commander is a plugin for Obsidian which allows you to add commands to different parts of the user interface.
+
+No Empty Windows
+Closes Obsidian window with cmd+W on Mac when the last tab is closed.
+
+Potato Indexer
+With this plug-in you can generate content indexes for your note or for a sub-section of your note.
+
+Scroll To Top
+This is a plugin for Obsidian that adds a button to scroll to the top of the current note. It has some customizations as well.
+
+
