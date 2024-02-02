@@ -2,6 +2,6 @@ to be added:
 dropdown category menu  
 individual category pages  
 search bar  
-search function  
+search function  (Google programmable search engine) 
 search result page  
  
