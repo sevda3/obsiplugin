@@ -8,33 +8,36 @@
 </head>
 <body>
     <header>
-        <img style="max-height:100px;" src="img/logo.png" alt="logo">
+        <img style="max-height:5vw;" src="img/logo.png" alt="logo" onclick="window.location.href = 'index.html';">
     </header>
 
     <section style="padding:0;" id="about">
-        <div class="about-content">
-            <h2>About Us</h2>
-            <p>Description about the website...</p>
-            <button class="explore-btn">Explore</button>
+        <div style="margin-right:5vw;" class="about-illust"> <img src="img/homeillust.png"> </div>
+        <div onclick="document.getElementById('plugins').scrollIntoView({ behavior: 'smooth' });" class="about-content">
+            <h2 style="font-weight: 600; font-size:3.5vw;">The best Obsidian<br>
+                plugins, curated<br>
+                for you</h2>
+            <p style="font-family: Poppins, sans-serif;">Get the best suited plugins to enhance your <br>
+                workflow, without having to use 5 different websites.</p>
         </div>
     </section>
-    <section id="plugins">
+    <section id="features">
         <h2>Core Features</h2>
         <div class="plugin-container">
-            <div class="plugin">
+            <div class="feature">
                 <img src="img/feature1.jpeg" alt="Plugin 1">
-            <h3>Feature</h3>
-            <p>explanation</p>
+            <h3>By users, for users</h3>
+            <p>We understand that the best recommendations come from those who are actively in the community. That's why our collection is curated by Obsidian users, for Obsidian users. Every plugin featured here has been handpicked by fellow enthusiasts who know just what you need to enhance your workflow.</p>
         </div>
-        <div class="plugin">
+        <div class="feature">
             <img src="img/feature2.jpeg" alt="Plugin 2">
-            <h3>Feature</h3>
-            <p>explanation</p>
+            <h3>Up to date</h3>
+            <p>We are always in pursuit of the best experience. New plug-ins are always getting developed, and added to the list of 1,300+ others. You don't need all of them. That's why we're here.</p>
         </div>
-        <div class="plugin">
-            <img src="img/feature3.jpeg" alt="Plugin 3">
-            <h3>Feature</h3>
-            <p>explanation</p>
+        <div class="feature">
+            <img src="img/feature3.jpg" alt="Plugin 3">
+            <h3>Categorised for you</h3>
+            <p>The best UX plugin is useless if you're looking for a plugin to help file management. The internet is difficult to navigate and time is your most valuable resource, so don't waste it doing this alone. We already have categorised all of our collection to help you.</p>
         </div></div>
 
     </section>
@@ -42,29 +45,33 @@
         <h2>Featured Plugins</h2>
         <div class="plugin-container">
             <div class="plugin">
-                <img src="img/feature1.jpeg" alt="Plugin 1">
-                <h3>Plugin</h3>
-                <p>desc</p>
+                <a href="https://forum.obsidian.md/t/excalidraw-full-featured-sketching-plugin-in-obsidian/17367"><img src="img/plugins/excalidraw.jpeg" alt="Plugin 1">
+                <h3>Excalidraw</h3></a>
+                <p>Excalidraw is a very powerful yet simple to use sketching tool. It allows you to integrate quick sketches, user interface deigns, even simple charts, etc. into your notes in Obsidian.</p>
         </div>
         <div class="plugin">
-            <img src="img/feature2.jpeg" alt="Plugin 2">
-            <h3>Plugin</h3>
-            <p>desc</p>
+            <a href="https://github.com/Zachatoo/obsidian-achievements"> <img src="img/plugins/achievements.png" alt="Plugin 3">
+            <h3>Obsidian Achievements</h3></a>
+            <p>Add achievements to Obsidian to help guide the user to build good habits in Obsidian.</p>
         </div>
         <div class="plugin">
-            <img src="img/feature3.jpeg" alt="Plugin 3">
-            <h3>Plugin</h3>
-            <p>desc</p>
-        </div></div>
+            <a href="https://github.com/nhaouari/obsidian-textgenerator-plugin"><img src="img/plugins/textgenerator.png" alt="Plugin 2">
+            <h3>Text Generator</h3></a>
+            <p>Text Generator is an open-source AI Assistant Tool that brings the power of Generative Artificial Intelligence to the power of knowledge creation and organization in Obsidian.</p>
+        </div>
+        </div>
     </section>
 
     <section id="contact">
         <h2>Contact Us</h2>
-        <!-- Add contact form or details -->
+        <form action="mailto:PLACEHOLDERMAIL@example.com" method="post" enctype="text/plain">
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message"></form>
     </section>
 
     <footer>
-        <p>&copy; 2024 ObsiPlugin. This website is not affiliated with Obsidian and/or Dynalist Inc.</p>
+        <p>&copy; 2024 ObsiPlugin. This website is not affiliated with Obsidian and/or Dynalist Inc. This site is currently a work in progress.</p>
     </footer>
 </body>
 </html>
