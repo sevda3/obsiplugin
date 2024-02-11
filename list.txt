@@ -22,4 +22,20 @@ With this plug-in you can generate content indexes for your note or for a sub-se
 Scroll To Top
 This is a plugin for Obsidian that adds a button to scroll to the top of the current note. It has some customizations as well.
 
+Omnisearch
+Omnisearch is a search engine that "just works". It always instantly shows you the most relevant results, thanks to its smart weighting algorithm. It allows you to search for anything and find the most relevant result in your notes, including text in images.
 
+Longform
+Longform is a plugin for Obsidian that helps you write and edit novels, screenplays, and other long projects. It lets you organize a series of notes, or scenes, into an ordered manuscript. It also supports single-note projects for shorter works. Major features include:
+
+Highlightr
+Highlightr is a simple plugin that brings a minimal and aesthetically pleasing highlighting menu into the Obsidian note-taking app. This plugin makes color-coded highlighting much easier with a user-friendly assortment of highlight colors.
+
+obsidian-calendar-plugin
+This plugin for Obsidian creates a simple Calendar view for visualizing and navigating between your daily notes.
+
+Obsidian_to_Anki
+Plugin to add flashcards from a text or markdown file to Anki. Run in Obsidian as a plugin, or from the command-line as a python script. Built with Obsidian markdown syntax in mind. Supports user-defined custom syntax for flashcards.
+
+Obsidian Iconize
+This obsidian plugin allows you to add any custom icon (of type .svg) or from an icon pack to anything you want.
