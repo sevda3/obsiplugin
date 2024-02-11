@@ -25,6 +25,13 @@ a:hover {
     top: 0; /* Position at the top of the header */
     bottom: 0; /* Stretch button to the bottom of the header */
     right: 20px; /* Adjust right spacing */
+    transition: background-color 0.3s; 
+
+}
+.header-button:hover{
+    background-color: #180027; /* Button background color */
+    transition: background-color 0.4s; 
+
 }
 section#about{
     display:flex;
