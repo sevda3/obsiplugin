@@ -1,1 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <title>All Plugins</title>
+</head>
+<body>
+    <header>
+        <img style="max-height:5vw;" src="../img/logo.png" alt="logo" onclick="window.location.href = 'index.html';">
+    </header>
+    <div style="text-align:center;"><h2>All Plugins</h2></div>
+  <div id="items-container">
+    <!-- Items will be dynamically added here -->
+  </div>
+  <script>
+    
+        fetch('plugins.json')
+      .then(response => response.json())
+      .then(data => {
+        const itemsContainer = document.getElementById('items-container');
+        const colors = ['#18011b', '#1d0832', '#310231', '#130618']; // Dark purple colors
+        let colorIndex = 0;
 
+        data.forEach(item => {
+      const itemElement = document.createElement('div');
+      itemElement.classList.add('item');
+      itemElement.style.backgroundColor = colors[colorIndex]; // Set background color from array
+      colorIndex = (colorIndex + 1) % colors.length; // Cycle through colors
+
+      const itemContent = document.createElement('div');
+      itemContent.classList.add('item-content');
+
+      const titleElement = document.createElement('h2');
+      titleElement.textContent = item.name;
+      titleElement.addEventListener('click', () => {
+          window.open(item.source, '_blank');
+      });
+
+      const descriptionElement = document.createElement('p');
+      descriptionElement.textContent = item.description;
+
+      const tagsElement = document.createElement('div');
+      tagsElement.classList.add('tags');
+      item.tags.forEach(tag => {
+        const tagElement = document.createElement('span');
+        tagElement.classList.add('tag');
+        tagElement.textContent = tag;
+        tagElement.dataset.tag = tag.toLowerCase(); // Add custom data attribute
+        tagElement.onclick = () => filterItemsByTag(tag);
+        tagsElement.appendChild(tagElement);
+      });
+
+      itemContent.appendChild(titleElement);
+      itemContent.appendChild(descriptionElement);
+      itemContent.appendChild(tagsElement);
+
+      itemElement.appendChild(itemContent);
+      itemsContainer.appendChild(itemElement);
+    });
+  })
+  .catch(error => console.error('Error fetching plugins:', error));
+
+function filterItemsByTag(tag) {
+  const items = document.querySelectorAll('.item');
+  items.forEach(item => {
+    const tags = item.querySelectorAll('.tag');
+    let hasTag = false;
+    tags.forEach(tagElement => {
+      if (tagElement.dataset.tag === tag.toLowerCase()) {
+        hasTag = true;
+      }
+    });
+    if (hasTag) {
+      item.style.display = 'block';
+    } else {
+      item.style.display = 'none';
+    }
+  });
+
+    }
+    function fetchAndUpdateData() {
+  fetch('plugins.json')
+    .then(response => response.json())
+    .then(data => {
+      // Update the DOM with the new data
+      // (e.g., clear the existing items and generate new items)
+    })
+    .catch(error => console.error('Error fetching plugins:', error));
+}
+
+// Call the function periodically (every 5 minutes in this example)
+setInterval(fetchAndUpdateData, 5 * 60 * 1000); // 5 minutes in milliseconds
+  </script>
+</body>
+</html>

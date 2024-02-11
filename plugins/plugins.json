@@ -1,0 +1,108 @@
+[
+    {
+      "image": "img/excalidraw.png",
+      "name": "Excalidraw",
+      "description": "Excalidraw is a very powerful yet simple to use sketching tool. It allows you to integrate quick sketches, user interface designs, even simple charts, etc. into your notes in Obsidian.",
+      "source": "https://forum.obsidian.md/t/excalidraw-full-featured-sketching-plugin-in-obsidian/17367",
+      "tags": ["sketching", "UI design", "charts", "notes"]
+    },
+    {
+        "image": "img/achievements.png",
+        "name": "Achievements",
+        "description": "Add achievements to Obsidian to help guide the user to build good habits in Obsidian.",
+        "source": "https://github.com/Zachatoo/obsidian-achievements",
+        "tags": ["habits", "fun"]
+      },
+    {
+      "image": "img/templater.png",
+      "name": "Templater",
+      "description": "Templater is a template plugin for Obsidian.md. It defines a templating language that lets you insert variables and function results into your notes. It will also let you execute JavaScript code manipulating those variables and functions.",
+      "source": "https://github.com/SilentVoid13/Templater",
+      "tags": ["JavaScript"]
+    },
+    {
+      "image": "img/plugin-update-tracker.png",
+      "name": "Obsidian Plugin Update Tracker",
+      "description": "Know when installed plugins have updates.",
+      "source": "https://github.com/username/plugin-update-tracker",
+      "tags": ["quality-of-life"]
+    },
+    {
+      "image": "img/linter.png",
+      "name": "Obsidian Linter",
+      "description": "This Obsidian plugin formats and styles your notes with a focus on configurability and extensibility. Rules can be toggled and configured in the settings.",
+      "source": "https://github.com/username/linter",
+      "tags": ["formatting", "styles", "configurability"]
+    },
+    {
+      "image": "img/commander.png",
+      "name": "Obsidian Commander",
+      "description": "Commander is a plugin for Obsidian which allows you to add commands to different parts of the user interface.",
+      "source": "https://github.com/username/commander",
+      "tags": ["commands", "ui"]
+    },
+    {
+      "image": "img/no-empty-windows.png",
+      "name": "No Empty Windows",
+      "description": "Closes Obsidian window with cmd+W on Mac when the last tab is closed.",
+      "source": "https://github.com/username/no-empty-windows",
+      "tags": ["Mac", "window management"]
+    },
+    {
+      "image": "img/potato-indexer.png",
+      "name": "Potato Indexer",
+      "description": "With this plugin, you can generate content indexes for your note or for a sub-section of your note.",
+      "source": "https://github.com/username/potato-indexer",
+      "tags": ["content indexing", "note-taking"]
+    },
+    {
+      "image": "img/scroll-to-top.png",
+      "name": "Scroll To Top",
+      "description": "This is a plugin for Obsidian that adds a button to scroll to the top of the current note. It has some customizations as well.",
+      "source": "https://github.com/username/scroll-to-top",
+      "tags": ["quality-of-life", "navigation"]
+    },
+    {
+      "image": "img/omnisearch.png",
+      "name": "Omnisearch",
+      "description": "Omnisearch is a search engine that 'just works'. It always instantly shows you the most relevant results, thanks to its smart weighting algorithm. It allows you to search for anything and find the most relevant result in your notes, including text in images.",
+      "source": "https://github.com/username/omnisearch",
+      "tags": ["search engine", "text search", "image search", "note-taking"]
+    },
+    {
+      "image": "img/longform.png",
+      "name": "Longform",
+      "description": "Longform is a plugin for Obsidian that helps you write and edit novels, screenplays, and other long projects. It lets you organize a series of notes, or scenes, into an ordered manuscript. It also supports single-note projects for shorter works.",
+      "source": "https://github.com/username/longform",
+      "tags": ["writing", "manuscripts"]
+    },
+    {
+      "image": "img/highlightr.png",
+      "name": "Highlightr",
+      "description": "Highlightr is a simple plugin that brings a minimal and aesthetically pleasing highlighting menu into the Obsidian note-taking app. This plugin makes color-coded highlighting much easier with a user-friendly assortment of highlight colors.",
+      "source": "https://github.com/username/highlightr",
+      "tags": ["highlighting", "colors", "ui"]
+    },
+    {
+      "image": "img/calendar-plugin.png",
+      "name": "obsidian-calendar-plugin",
+      "description": "This plugin for Obsidian creates a simple Calendar view for visualizing and navigating between your daily notes.",
+      "source": "https://github.com/username/calendar-plugin",
+      "tags": ["calendar", "navigation"]
+    },
+    {
+      "image": "img/anki.png",
+      "name": "Obsidian_to_Anki",
+      "description": "Plugin to add flashcards from a text or markdown file to Anki. Run in Obsidian as a plugin, or from the command-line as a python script. Built with Obsidian markdown syntax in mind. Supports user-defined custom syntax for flashcards.",
+      "source": "https://github.com/username/anki",
+      "tags": ["flashcards", "Anki", "markdown"]
+    },
+    {
+      "image": "img/iconize.png",
+      "name": "Obsidian Iconize",
+      "description": "This Obsidian plugin allows you to add any custom icon (of type .svg) or from an icon pack to anything you want.",
+      "source": "https://github.com/username/iconize",
+      "tags": ["icons", "customization"]
+    }
+  ]
+  
